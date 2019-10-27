@@ -1,0 +1,170 @@
+/*!
+ * Callum D E Smith - Callum D E Smith v1.0.0 ()
+ * Copyright 2018-2019 Callum D E Smith
+ */
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: 'Source Sans Pro'; }
+
+h1,
+h2 {
+  font-weight: 700; }
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #ffffff;
+  background: #40667B;
+  line-height: 45px; }
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: #ffffff; }
+
+.scroll-to-top:hover {
+  background: #052334; }
+
+.scroll-to-top i {
+  font-weight: 800; }
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0; }
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh; }
+  .masthead h1 {
+    font-size: 5.5rem; } }
+
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+  background: #40667B;
+  border-left: 1px solid rgba(255, 255, 255, 0.1); }
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px; }
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background: #052334; }
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none; }
+
+.sidebar-nav > .sidebar-brand {
+  font-size: 1.2rem;
+  background: #143A4E;
+  height: 80px;
+  line-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px; }
+
+.sidebar-nav > .sidebar-brand a {
+  color: #ffffff; }
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #ffffff;
+  background: none; }
+
+#sidebar-wrapper.active {
+  right: 250px;
+  width: 250px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+
+.menu-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #ffffff;
+  background: #40667B;
+  line-height: 50px;
+  z-index: 999; }
+
+.menu-toggle:focus, .menu-toggle:hover {
+  color: #ffffff; }
+
+.menu-toggle:hover {
+  background: #052334; }
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #40667B;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
+
+footer.footer .social-link:hover {
+  background-color: #052334;
+  text-decoration: none; }
+
+a {
+  color: #40667B; }
+
+a:hover, a:focus, a:active {
+  color: #143A4E; }
+
+.text-primary {
+  color: #ffffff !important; }
+
+.text-secondary {
+  color: #ffffff !important; }
