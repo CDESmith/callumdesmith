@@ -21,7 +21,7 @@
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
-        "axios": "^0.19",
+        "axios": "^0.21",
         "cross-env": "^5.1",
         "del": "^5.1.0",
         "gulp": "^4.0.2",
